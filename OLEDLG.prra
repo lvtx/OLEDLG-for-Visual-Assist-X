@@ -1,0 +1,47 @@
+[Version]
+Version=3000
+[Project]
+Assembler=Masm
+Path=E:\Tools\±à³Ì¹¤¾ß\VC\Visual Assist X\OLEDLG_ASM
+Group=2,-1,0,1,OLEDLG,-2,-1,1,Assembly,-3,-1,1,Include,-4,-1,1,Misc,-5,-1,1,Resource
+F1=-2,2,1,-10,-32,1453,654,0,OLEDLG.asm
+F2=-3,0,1,-10,-32,1453,654,0,OLEDLG.inc
+F3=-5,2,4,-8,-30,1449,650,0,OLEDLG.rc
+F4=-4,0,2,-10,-32,1453,654,0,OLEDLG.txt
+C3=
+B3=
+M3=
+Open=0,1,2
+Api=
+C2=0
+B2=
+M2=
+C1=0,0
+B1=
+M1=
+F5=-3,0,2,-10,-32,1453,654,0,OLEDLG.def
+C5=
+B5=
+M5=
+C4=
+B4=
+M4=
+F6=-3,0,1,-10,-32,1453,654,0,PE.inc
+C6=0
+B6=
+M6=
+F7=
+C7=
+B7=
+M7=
+F8=
+C8=
+B8=
+M8=
+[Make]
+Make=0
+0=Dll Release,'/v "$R"',"$R.res",'/c /coff /Cp "$C"',"$C.obj",'/SUBSYSTEM:WINDOWS /RELEASE /VERSION:5.0 /DLL /MAP /DEF:$D /OUT:$O $C $M $R',"$C.dll",'',
+1=Dll Debug,'/v "$R"',"$R.res",'/c /coff /Cp /Zi /Zd "$C"',"$C.obj",'/SUBSYSTEM:WINDOWS /DEBUG /VERSION:5.0 /DLL /MAP /DEF:$D /OUT:$O $C $M $R',"$C.dll",'',
+Delete=1
+IncBuild=0
+Run=0,'',''

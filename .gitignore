@@ -1,0 +1,6 @@
+﻿*.dll
+*.lib
+*.map
+*.obj
+*.pdb
+*.res
